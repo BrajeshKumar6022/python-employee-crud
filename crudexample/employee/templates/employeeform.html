@@ -1,0 +1,10 @@
+<div>
+    <form action="detailsview" method="post">
+        {% csrf_token %}
+        Name <input type="text" name="empname">
+        <br>
+        Email <input type="text" name="email">
+        <br>
+        <button type="submit">submit</button>
+    </form>
+</div>
